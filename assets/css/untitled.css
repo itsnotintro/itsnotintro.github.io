@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-color: #000000;
+  }
+}
+
