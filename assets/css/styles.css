@@ -43,7 +43,7 @@ body {
 
 .re {
   flex: 1;
-  max-width: 33%;
+  /*max-width: 33%;*/
   height: auto;
   aspect-ratio: 3 / 4;
   border-radius: 8px;
@@ -92,5 +92,16 @@ body {
   .image {
     flex-direction: row;
   }
+}
+
+a {
+  flex: 1;
+  max-width: 33%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  border-radius: 8px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  width: 100%;
 }
 

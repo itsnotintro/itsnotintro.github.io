@@ -1,0 +1,153 @@
+body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
+  margin: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
+  width: 100%;
+  scroll-snap-align: start;
+  /*padding: 10px;*/
+  box-sizing: border-box;
+}
+
+.section.section1 {
+  justify-content: center;
+  align-items: center;
+  height: 101vh;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.text-block, .image-block {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.image-block img {
+  width: 200px;
+  height: auto;
+  /*max-width: 100%;*/
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.h {
+  color: var(--bs-light);
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+  /*margin: -10px;*/
+  /*max-height: 20%;*/
+}
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*gap: 0em;*/
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bg {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-height: 100%;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.section.section2 {
+  /*flex-direction: column;*/
+}
+
+.bg.h1 {
+  background: url("../../assets/img/의정-[Intro].gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+.bg.h2 {
+  background: url("../../assets/img/의정-[Mi_front].gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+.bg.h3 {
+  background: url("../../assets/img/의정-[Mi].gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+.bg.h4 {
+  background: url("../../assets/img/의정-[Mi_back].gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+.bg.h5 {
+  background: url("../../assets/img/의정-[End].gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+.text {
+  display: flex;
+  /*align-items: center;*/
+}
+
+.corpright {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-body {
+  /*background-color: black !important;*/
+}
+
+.section.copyright {
+  height: 10vh;
+  background: #000000;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
