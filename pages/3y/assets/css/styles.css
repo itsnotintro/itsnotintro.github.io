@@ -84,19 +84,19 @@ body {
 }
 
 .bg.h1 {
-  background: url("../../assets/img/민주-[Intro].gif");
+  background: url("../../assets/img/윤우-[Intro].gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .bg.h2 {
-  background: url("../../assets/img/민주-[Mi_front].gif");
+  background: url("../../assets/img/윤우-[Mi_front].gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .bg.h3 {
@@ -104,7 +104,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .bg.h4 {
@@ -112,15 +112,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .bg.h5 {
-  background: url("../../assets/img/민주-[End].gif");
+  background: url("../../assets/img/윤우-[End].gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .text {
@@ -155,5 +155,19 @@ html, body {
   text-decoration: none;
   max-width: 20%;
   color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  flex: 1 1 0;
+  max-width: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  flex: 1 1 0;
+  max-width: 30%;
 }
 
