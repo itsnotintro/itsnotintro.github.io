@@ -269,3 +269,9 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .h.h1 {
+    font-size: clamp(1rem, 4.7vw, 3rem);
+  }
+}
+
