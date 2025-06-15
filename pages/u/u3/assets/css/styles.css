@@ -31,7 +31,7 @@ body {
   align-items: flex-start;
   /*gap: 2em;*/
   width: 100%;
-  padding: 5vh 2vw;
+  /*padding: 5vh 2vw;*/
   flex-wrap: nowrap;
   max-width: 100%;
   box-sizing: border-box;
@@ -98,7 +98,7 @@ body {
   position: relative;
   width: 100%;
   padding-top: 300%;
-  background: url("../../assets/img/민주-[Mi].gif");
+  background: url("../../assets/img/윤우-[Mi].gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,7 +106,7 @@ body {
 }
 
 .bg.h3 {
-  background: url("../../assets/img/민주-[Mi].gif");
+  background: url("민주-[Mi].gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,7 +188,7 @@ html, body {
   text-decoration: none;
   color: inherit;
   flex: 1 1 0;
-  max-width: 30%;
+  max-width: 33%;
 }
 
 .title {
