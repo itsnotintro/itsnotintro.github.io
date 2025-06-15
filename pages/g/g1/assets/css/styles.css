@@ -31,7 +31,7 @@ body {
   align-items: flex-start;
   /*gap: 2em;*/
   width: 100%;
-  padding: 5vh 2vw;
+  /*padding: 5vh 2vw;*/
   flex-wrap: nowrap;
   max-width: 100%;
   box-sizing: border-box;
