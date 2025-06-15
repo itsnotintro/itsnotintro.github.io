@@ -207,8 +207,10 @@ html, body {
   /*width: 50%;*/
 }
 
-.title.back {
-  /*width: 50%;*/
+@media (max-width: 1200px) {
+  .title.back {
+    width: 103%;
+  }
 }
 
 .section.blank {
