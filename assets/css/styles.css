@@ -105,3 +105,31 @@ a {
   width: 100%;
 }
 
+.section.section3 {
+  height: auto;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .section.section3 {
+    background-size: contain;
+  }
+}
+
+img {
+  /*object-fit: contain;*/
+  width: 100%;
+}
+
+.ba {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
